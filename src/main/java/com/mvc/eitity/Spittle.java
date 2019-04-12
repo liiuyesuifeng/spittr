@@ -4,7 +4,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 import javax.validation.constraints.Size;
 import java.util.Date;
-
+//添加实体校验
 public class Spittle {
     @Null
     private final Long id;

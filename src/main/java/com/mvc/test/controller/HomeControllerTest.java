@@ -22,7 +22,9 @@ public class HomeControllerTest extends TestMain{
     @Test
     public void testHomePage() throws Exception{
         HomeController home = new HomeController();
+        //构建mockMcv
         MockMvc mockMvc = standaloneSetup(home).build();
+        //使用get请求访问控制器，并校验返回视图名称
         mockMvc.perform(get("/")).andExpect(view().name("home"));
     }
     @Test
@@ -31,8 +33,10 @@ public class HomeControllerTest extends TestMain{
         HomeController home = new HomeController();
         home.setSpittleRepository(spittleRepository);
         MockMvc mockMvc = standaloneSetup(home).setSingleView(new InternalResourceView("/WEB-INF/views/spittles.jsp")).build();
+
         mockMvc.perform(get("/home/spittles"))
                 .andExpect(view().name("spittles"))
+                //判断model中是否存在key：spittleList
                 .andExpect(model().attributeExists("spittleList"));
     }
     @Test
@@ -47,13 +51,16 @@ public class HomeControllerTest extends TestMain{
     }
     @Test
     public void testSpittersFrom() throws Exception{
+
         SpittleRepository spittleRepository = new SpittleRepositoryImpl();
         HomeController home = new HomeController();
         home.setSpittleRepository(spittleRepository);
         MockMvc mockMvc = standaloneSetup(home).build();
+        //post请求模型驱动，并添加模型属性，属性名称和实体属性相同
         mockMvc.perform(post("/home/spittlesFrom")
                         .param("latitude","3.1")
                         .param("context","a"))
+                //判断返回是否为转发路径
                 .andExpect(redirectedUrl("/home/test"));
     }
 

@@ -42,6 +42,14 @@ public class HomeController {
         return "spittlesParam";
 
     }
+
+    /**
+     * 模型驱动，添加模型属性校验，@Valid 为关键点启动模型中校验内容
+     * Errors 紧跟@Valid 后
+     * @param spittle
+     * @param errors
+     * @return
+     */
     @RequestMapping(value = "/spittlesFrom",method = RequestMethod.POST)
     public String spittlesFrom(@Valid Spittle spittle, Errors errors){
         if(errors.hasErrors()){
