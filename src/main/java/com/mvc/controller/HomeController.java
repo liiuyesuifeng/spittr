@@ -19,6 +19,7 @@ import java.util.List;
 @RequestMapping(value = "/home")
 public class HomeController {
     private static final String MAX_LONG_AS_STRING = "10000";
+
     private SpittleRepository spittleRepository;
     @Autowired
     public void setSpittleRepository(SpittleRepository spittleRepository) {

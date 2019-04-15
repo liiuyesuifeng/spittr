@@ -2,11 +2,12 @@ package com.mvc.service.impl;
 
 import com.mvc.eitity.Spittle;
 import com.mvc.service.SpittleRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
+@Service
 public class SpittleRepositoryImpl implements SpittleRepository {
 
     @Override
