@@ -7,32 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba76c52e-18de-4bc9-9915-c4f68b5ef4d5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_2_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/eitity/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/ValidationMessages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/messages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/messages_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/ValidationMessages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/messages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/messages_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/ValidationMessages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/messages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/messages_es.properties" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/spittr_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/spittr_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/spittr.iml" afterPath="$PROJECT_DIR$/spittr.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mvc/config/SpittrWebAppInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/config/SpittrWebAppInitializer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mvc/config/WebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/config/WebConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mvc/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/controller/HomeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mvc/service/SpittleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/service/SpittleRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mvc/service/impl/SpittleRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/service/impl/SpittleRepositoryImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mvc/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mvc/eitity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/mvc/eitity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mvc/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/mvc/config/WebConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mvc/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/mvc/controller/HomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mvc/service/SpittleRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/mvc/service/SpittleRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mvc/service/impl/SpittleRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/mvc/service/impl/SpittleRepositoryImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mvc/test/controller/HomeControllerTest.class" afterPath="$PROJECT_DIR$/target/classes/com/mvc/test/controller/HomeControllerTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mvc/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/mvc/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mvc/eitity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/mvc/eitity/User.class" />
       <change beforePath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/config/WebConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/controller/HomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/test/controller/HomeControllerTest.class" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/test/controller/HomeControllerTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/test/controller/TestMain.class" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/test/controller/TestMain.class" />
-      <change beforePath="$PROJECT_DIR$/target/spittr/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/views/home.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/controller/UserController.class" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/eitity/User.class" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/classes/com/mvc/eitity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/spittr/WEB-INF/views/user.jsp" afterPath="$PROJECT_DIR$/target/spittr/WEB-INF/views/user.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,13 +52,41 @@
       <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="92">
+              <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="108" column="50" lean-forward="true" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/RootConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpittrWebAppInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/SpittrWebAppInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="48" column="56" lean-forward="true" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,103 +94,48 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="306">
+              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-              <folding>
-                <marker date="1521788986763" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1521788986763" expanded="false" signature="162:720" ph="..." />
-                <marker date="1521788986763" expanded="false" signature="1114:1125" ph=" { " />
-                <marker date="1521788986763" expanded="false" signature="1146:1152" ph=" }" />
-                <marker date="1521788986763" expanded="false" signature="1215:1226" ph=" { " />
-                <marker date="1521788986763" expanded="false" signature="1246:1252" ph=" }" />
-                <marker date="1521788986763" expanded="true" signature="1374:1430" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="1509:1568" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="1678:1737" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="1831:1902" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="2042:2748" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="2898:4250" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="4332:4558" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="4621:4957" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="5053:5511" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="5576:6653" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="6738:7340" ph="{...}" />
-                <marker date="1521788986763" expanded="true" signature="7426:8000" ph="{...}" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletInvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding>
-                <marker date="1521788965173" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1521788965173" expanded="false" signature="177:1159" ph="..." />
-                <marker date="1521788965173" expanded="true" signature="1568:1642" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="1714:1786" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="1826:2086" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="2202:2265" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="2406:3393" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="3479:3921" ph="{...}" />
-                <marker date="1521788965173" expanded="false" signature="3993:4004" ph=" { " />
-                <marker date="1521788965173" expanded="false" signature="4038:4044" ph=" }" />
-                <marker date="1521788965173" expanded="false" signature="4085:4096" ph=" { " />
-                <marker date="1521788965173" expanded="false" signature="4131:4137" ph=" }" />
-                <marker date="1521788965173" expanded="true" signature="4229:4547" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="4619:4789" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="4872:6193" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="5033:5259" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="5304:6082" ph="{...}" />
-                <marker date="1521788965173" expanded="false" signature="6129:6144" ph=" { " />
-                <marker date="1521788965173" expanded="false" signature="6177:6187" ph=" }" />
-                <marker date="1521788965173" expanded="true" signature="6281:7611" ph="{...}" />
-                <marker date="1521788965173" expanded="true" signature="6474:7177" ph="{...}" />
-                <marker date="1521788965173" expanded="false" signature="6494:6574" ph="call() → {" />
-                <marker date="1521788965173" expanded="false" signature="6947:6966" ph="}" />
-                <marker date="1521788965173" expanded="false" signature="7216:7231" ph=" { " />
-                <marker date="1521788965173" expanded="false" signature="7287:7297" ph=" }" />
-                <marker date="1521788965173" expanded="false" signature="7368:7383" ph=" { " />
-                <marker date="1521788965173" expanded="false" signature="7406:7416" ph=" }" />
-                <marker date="1521788965173" expanded="true" signature="7503:7605" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/eitity/User.java">
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-              </folding>
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ServletContextTemplateResolver.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.9.RELEASE/thymeleaf-3.0.9.RELEASE.jar!/org/thymeleaf/templateresolver/ServletContextTemplateResolver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="207">
+              <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding>
+                <marker date="1555397483149" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1555397483149" expanded="false" signature="154:411" ph="..." />
+                <marker date="1555397483149" expanded="true" signature="627:755" ph="{...}" />
+                <marker date="1555397483149" expanded="true" signature="985:1097" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,38 +143,18 @@
       <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="283">
+              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Documented.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/annotation/Documented.java">
+      <file leaf-file-name="Spittle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/eitity/Spittle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Retention.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/annotation/Retention.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RetentionPolicy.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/annotation/RetentionPolicy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+            <state relative-caret-position="207">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -211,6 +168,7 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -242,20 +200,24 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Spittr.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mvc/config/RootConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mvc/config/SpittrWebAppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mvc/test/controller/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mvc/test/controller/HomeControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mvc/eitity/Spittle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mvc/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/User.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mvc/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mvc/service/SpittleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mvc/service/impl/SpittleRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/ValidationMessages.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mvc/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mvc/eitity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/resource/messages_es.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mvc/controller/UserController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mvc/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mvc/config/SpittrWebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mvc/config/WebConfig.java" />
       </list>
     </option>
   </component>
@@ -292,7 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,6 +295,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -349,6 +320,31 @@
               <item name="spittr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -358,6 +354,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
@@ -368,30 +373,12 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spittr" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spittr" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="spittr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spittr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spittr" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="spittr" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -400,11 +387,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44444445" />
     <property name="SearchEverywhereHistoryKey" value="ContextLoaderListener&#9;PSI&#9;JAVA://org.springframework.web.context.ContextLoaderListener" />
     <property name="last_opened_file_path" value="D:/Tomcat7.0/lib/websocket-api.jar!/" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -762,7 +750,8 @@
       <option name="presentableId" value="Default" />
       <updated>1554969503322</updated>
       <workItem from="1554969508538" duration="26213000" />
-      <workItem from="1555298029017" duration="8950000" />
+      <workItem from="1555298029017" duration="9089000" />
+      <workItem from="1555379105830" duration="16257000" />
     </task>
     <servers />
   </component>
@@ -799,7 +788,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35163000" />
+    <option name="totallyTimeSpent" value="51559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -888,7 +877,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mvc/controller/UserController.java</url>
-          <line>18</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -898,44 +887,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/test/controller/HomeControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/SpringServletContainerInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/ServletContainerInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/WebApplicationInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/context/AbstractContextLoaderInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/support/AbstractDispatcherServletInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1043,14 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/test/controller/testHomePage.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.2.4.RELEASE/spring-test-4.2.4.RELEASE.jar!/org/springframework/test/web/servlet/MockMvc.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1105,43 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <marker date="1547110067476" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1547110067476" expanded="false" signature="140:293" ph="..." />
-            <marker date="1547110067476" expanded="true" signature="295:427" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/eitity/Spittle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#642#643#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1017#1018#0" expanded="false" />
-            <element signature="e#1047#1048#0" expanded="false" />
-            <element signature="e#1076#1077#0" expanded="false" />
-            <element signature="e#1103#1104#0" expanded="false" />
-            <element signature="e#1138#1139#0" expanded="false" />
-            <element signature="e#1169#1170#0" expanded="false" />
-            <element signature="e#1217#1218#0" expanded="false" />
-            <element signature="e#1257#1258#0" expanded="false" />
-            <element signature="e#1293#1294#0" expanded="false" />
-            <element signature="e#1325#1326#0" expanded="false" />
-            <element signature="e#1375#1376#0" expanded="false" />
-            <element signature="e#1417#1418#0" expanded="false" />
-            <element signature="e#1451#1452#0" expanded="false" />
-            <element signature="e#1481#1482#0" expanded="false" />
-            <element signature="e#1527#1528#0" expanded="false" />
-            <element signature="e#1565#1566#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,14 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/spittr/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1171,33 +1069,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/RootConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/SpittrWebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE.jar!/org/springframework/stereotype/Service.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <marker date="1521788984860" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1521788984860" expanded="false" signature="154:347" ph="..." />
-            <marker date="1521788984860" expanded="true" signature="349:435" ph="@{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,33 +1092,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1307#1308#0" expanded="false" />
-            <element signature="e#1342#1343#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="874">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <marker date="1521788965173" expanded="false" signature="0:104" ph="/.../" />
@@ -1280,7 +1131,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="2645">
           <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding>
             <marker date="1521788986763" expanded="false" signature="0:104" ph="/.../" />
@@ -1307,7 +1158,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/annotation/RetentionPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="736">
           <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding />
         </state>
@@ -1315,7 +1166,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/annotation/Retention.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="506">
           <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding />
         </state>
@@ -1323,7 +1174,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/annotation/Documented.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="414">
           <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding />
         </state>
@@ -1333,44 +1184,154 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/ValidationMessages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+        <state relative-caret-position="-260">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/messages_es.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/eitity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/eitity/Spittle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.9.RELEASE/thymeleaf-3.0.9.RELEASE.jar!/org/thymeleaf/templateresolver/ServletContextTemplateResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <marker date="1555397483149" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1555397483149" expanded="false" signature="154:411" ph="..." />
+            <marker date="1555397483149" expanded="true" signature="627:755" ph="{...}" />
+            <marker date="1555397483149" expanded="true" signature="985:1097" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/eitity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/SpittrWebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="48" column="56" lean-forward="true" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mvc/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="108" column="50" lean-forward="true" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1382,10 +1343,10 @@
         <settings>
           <artifact-editor>
             <show-content>
+              <type id="jpa-descriptors" />
               <type id="library" />
               <type id="javaee-facet-resources" />
               <type id="artifact" />
-              <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
           <last-edited>spittr:war exploded</last-edited>
@@ -1393,7 +1354,7 @@
             <option name="proportions">
               <list>
                 <option value="0.44444445" />
-                <option value="0.4798387" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1441,6 +1402,7 @@
             <option name="proportions">
               <list>
                 <option value="0.44444445" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -7,11 +7,12 @@ import javax.validation.constraints.Size;
 @Entity
 public class User {
     private final String id;
-    @NotNull
-    @Size(min = 12,max = 13,message = "长度不正确")
+    @NotNull(message = "{str.notnull}")
+    @Size(min = 1,max =6 ,message = "{name.size}")
     private String name;
-    @Size(min = 1,max = 3,message = "")
+    @Size(min = 1,max = 3,message = "{age.size}")
     private String age;
+    private String message;
     public User(){
         this(null,null);
     }
