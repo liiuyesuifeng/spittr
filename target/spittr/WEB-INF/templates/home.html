@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-    <a th:href="@{/user}">user</a>
+    <form method="POST" th:object="${user}" enctype="multipart/form-data" ACTION="/spittr/user/saveUser">
+        头像:<input type="file" name="profilePicture" accept="image/jpeg,image/png,image/gif" />
+        姓名:<input type="text" name="name"/>
+        年龄：<input type="text" name="age"/>
+        <input type="submit" value="提交"/>
+    </form>
 </body>
 </html>

@@ -6,6 +6,7 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import javax.servlet.Filter;
 import javax.servlet.MultipartConfigElement;
 import javax.servlet.ServletRegistration;
 
@@ -46,7 +47,11 @@ public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherS
 
     @Override
     protected void customizeRegistration(ServletRegistration.Dynamic registration) {
-        registration.setMultipartConfig( new MultipartConfigElement("/tmp/spittr/uploads"));
+        registration.setMultipartConfig( new MultipartConfigElement("/tmp/spittr/uploads",2097152,2097152*2,0));
     }
-
+//     配置 dispathservlet  filter
+//    @Override
+//    protected Filter[] getServletFilters() {
+//        return new Filter[]{new MyFilter();
+//    }
 }
