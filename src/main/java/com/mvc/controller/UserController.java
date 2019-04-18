@@ -1,11 +1,14 @@
 package com.mvc.controller;
 
+import com.mvc.abnormal.user.UserLoginExecption;
 import com.mvc.eitity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.Errors;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestPart;
@@ -45,6 +48,14 @@ public class UserController {
         System.out.println("**********show user********");
         model.addAttribute("user",new User());
         return "user";
+    }
+    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    public String login(@Valid User user, Errors errors,Model model){
+        if(user.getId() == null){
+            throw new UserLoginExecption();
+        }
+        model.addAttribute("user",user);
+        return "userShow";
     }
 
 

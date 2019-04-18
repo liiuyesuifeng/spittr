@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <table th:object="${user}">
+        <tr>
+            <td>姓名：</td>
+            <td th:name="name"></td>
+        </tr>
+        <tr>
+            <td>年龄:</td>
+            <td th:name="age"></td>
+        </tr>
+    </table>
+</body>
+</html>

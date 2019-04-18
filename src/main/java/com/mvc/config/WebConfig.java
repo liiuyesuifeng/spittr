@@ -1,10 +1,12 @@
 package com.mvc.config;
 
+import org.apache.tomcat.dbcp.dbcp.BasicDataSource;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.jndi.JndiObjectFactoryBean;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 import org.springframework.web.servlet.ViewResolver;
@@ -21,12 +23,13 @@ import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ITemplateResolver;
 import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
+import javax.sql.DataSource;
 import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan
+@ComponentScan("com.mvc.*")//配置扫描包
 public class WebConfig extends WebMvcConfigurerAdapter{
 //    @Bean
 //    public ContentNegotiatingViewResolver contentNegotiatingViewResolver(SpringTemplateEngine springTemplateEngine){
@@ -114,11 +117,37 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     }
 
     /**
-     * 配置解析multipart请求视图解析器
+     * 配置解析multipart请求视图解析器 CommonsMultipartResolver
      * @return
      */
     @Bean
     public MultipartResolver multipartResolver(){
         return new StandardServletMultipartResolver();
+    }
+//    
+//    /**
+//     * 获取Jndi配置
+//     * @return
+//     */
+//    @Bean
+//    public JndiObjectFactoryBean dataSource(){
+//        JndiObjectFactoryBean data = new JndiObjectFactoryBean();
+//        data.setJndiName("jdbc/jndi");
+//        data.setResourceRef(true);
+//        data.setProxyInterface(javax.sql.DataSource.class);
+//        return data;
+//    }
+    @Bean(destroyMethod = "close")
+    public DataSource dataSource(){
+        BasicDataSource dataSource = new BasicDataSource();
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/userwork?useUnicode=true&characterEncoding=utf8");
+        dataSource.setUsername("root");
+        dataSource.setPassword("123456");
+        dataSource.setMaxActive(30);
+        dataSource.setMinIdle(5);
+        dataSource.setInitialSize(5);
+        dataSource.setDefaultAutoCommit(false);
+        return dataSource;
     }
 }
