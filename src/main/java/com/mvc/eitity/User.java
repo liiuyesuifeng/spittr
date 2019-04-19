@@ -1,27 +1,33 @@
 package com.mvc.eitity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.validation.Valid;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 @Entity
 public class User {
-    private final String id;
-    @NotNull(message = "{str.notnull}")
-    @Size(min = 1,max =6 ,message = "{name.size}")
-    private String name;
-    @Size(min = 1,max = 3,message = "{age.size}")
-    private String age;
-    private String message;
-    public User(){
-        this(null,null);
-    }
-    public User(String name,String age){
-        this.id = null;
+    @Id
+    @Column(name = "id")
+   private final int id;
+    @Column(name = "name")
+    @Size(min = 2,max = 6,message = "名称不符合要求")
+   private String name;
+    @Column(name = "age")
+    @Size(min = 1,max = 3,message = "年龄不符合要求")
+    @NotNull(message = "年龄不能空")
+   private String age;
+    public User(int id,String name,String age){
+        this.id = id;
         this.name = name;
         this.age = age;
     }
-    public String getId() {
+    public User(){
+        this(0,null,null);
+    }
+    public int getId() {
         return id;
     }
 
@@ -39,5 +45,10 @@ public class User {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "********id : " + getId() + "***Name :" + getName() + "******* age : " + age;
     }
 }

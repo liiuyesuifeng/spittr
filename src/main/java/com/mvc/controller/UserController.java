@@ -51,7 +51,7 @@ public class UserController {
     }
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public String login(@Valid User user, Errors errors,Model model){
-        if(user.getId() == null){
+        if(user.getId() == 0){
             throw new UserLoginExecption();
         }
         model.addAttribute("user",user);

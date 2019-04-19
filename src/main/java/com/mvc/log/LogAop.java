@@ -5,7 +5,8 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 public class LogAop {
-    @Pointcut("execution(com.mvc.controller.*(String)) && args(methed)")
+    @Pointcut("execution(com.mvc.controller.*(String)) " +
+            "&& args(methed)")
     public void logPointcut(String methed){}
     @Before("logPointcut(methed)")
     public void beforeLog(String methed){

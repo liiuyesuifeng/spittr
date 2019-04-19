@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jndi.JndiObjectFactoryBean;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.support.StandardServletMultipartResolver;
@@ -137,17 +138,23 @@ public class WebConfig extends WebMvcConfigurerAdapter{
 //        data.setProxyInterface(javax.sql.DataSource.class);
 //        return data;
 //    }
-    @Bean(destroyMethod = "close")
+    @Bean
     public DataSource dataSource(){
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/userwork?useUnicode=true&characterEncoding=utf8");
         dataSource.setUsername("root");
-        dataSource.setPassword("123456");
+        dataSource.setPassword("sa123456");
         dataSource.setMaxActive(30);
         dataSource.setMinIdle(5);
         dataSource.setInitialSize(5);
         dataSource.setDefaultAutoCommit(false);
         return dataSource;
+    }
+    @Bean
+    public JdbcTemplate jdbcTemplate(DataSource source){
+        JdbcTemplate jdbcTemplate = new JdbcTemplate();
+        jdbcTemplate.setDataSource(source);
+        return  jdbcTemplate;
     }
 }

@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
@@ -19,9 +20,23 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User queryUserById(String userId) {
-        StringBuilder sql = new StringBuilder("select name from userinfo where id =" + userId);
-        String s = userDao.execQuerySQL(sql.toString());
-        System.out.println(s);
+        StringBuilder sql = new StringBuilder("select * from userinfo where id =" + userId);
+        try{
+            return userDao.execQuerySQLForEntity(User.class, sql.toString());
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    @Override
+    public List<User> queryUserList(User user) {
+        StringBuilder sql = new StringBuilder("select * from userinfo where name =　'" + user.getName() + "'");
+        try{
+            return userDao.execQuerySQLForEntityList(User.class, sql.toString());
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         return null;
     }
 }

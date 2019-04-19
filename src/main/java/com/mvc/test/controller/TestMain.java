@@ -2,6 +2,7 @@ package com.mvc.test.controller;
 import com.mvc.config.RootConfig;
 import com.mvc.config.SpittrWebAppInitializer;
 import com.mvc.config.WebConfig;
+import com.mvc.eitity.User;
 import com.mvc.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
+
+import java.util.List;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
@@ -24,7 +27,12 @@ public class TestMain {
 
     @Test
     public void testSpringTmp(){
-        userService.queryUserById("1");
+        User user = new User();
+        user.setName("cc");
+        List<User> users = userService.queryUserList(user);
+        for(User u :users){
+            System.out.println(u);
+        }
 
     }
 
