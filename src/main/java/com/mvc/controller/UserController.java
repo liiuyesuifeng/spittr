@@ -2,21 +2,21 @@ package com.mvc.controller;
 
 import com.mvc.abnormal.user.UserLoginExecption;
 import com.mvc.eitity.User;
+import com.mvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.Errors;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestPart;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Hashtable;
 import java.util.Map;
 
@@ -25,10 +25,11 @@ import java.util.Map;
 public class UserController {
     private MessageSource messageSource;
     @Autowired
+    private UserService userService;
+    @Autowired
     public void setMessageSource(MessageSource messageSource) {
         this.messageSource = messageSource;
     }
-
     @RequestMapping(value = "/saveUser",method = RequestMethod.POST,headers = "content-type=multipart/*")
     public String saveUser(@RequestPart("profilePicture") MultipartFile file,@Valid User user, BindingResult bindingResult){
         System.out.println("save" + "上传文件名称：" + file.getName() + "上传文件大小："+ file.getSize() + "文件类型:" + file.getContentType());
@@ -56,6 +57,12 @@ public class UserController {
         }
         model.addAttribute("user",user);
         return "userShow";
+    }
+    @RequestMapping(value = "/getUser",method = RequestMethod.GET)
+    public String getUser(@RequestParam(value = "uid") String uid, Model model){
+        User user = userService.queryUserById(uid);
+        model.addAttribute("user",user);
+        return "showUser";
     }
 
 

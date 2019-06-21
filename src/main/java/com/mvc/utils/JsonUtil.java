@@ -10,7 +10,7 @@ public class JsonUtil {
     static {
         gson = new Gson();
     }
-    public static synchronized Gson getGson(){
+    public static Gson getGson(){
         return gson;
     }
     public static String formatJson(Object ob){

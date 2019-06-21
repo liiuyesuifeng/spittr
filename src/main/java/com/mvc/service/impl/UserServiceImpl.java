@@ -31,12 +31,21 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> queryUserList(User user) {
-        StringBuilder sql = new StringBuilder("select * from userinfo where name =　'" + user.getName() + "'");
+        StringBuilder sql = new StringBuilder("select * from userinfo ");
         try{
             return userDao.execQuerySQLForEntityList(User.class, sql.toString());
         }catch (Exception e){
             e.printStackTrace();
         }
         return null;
+    }
+
+    @Override
+    public void saveUser(User user) {
+        try {
+            userDao.saveUser(user);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
     }
 }

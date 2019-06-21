@@ -9,7 +9,6 @@ import java.util.Date;
 import java.util.List;
 @Service
 public class SpittleRepositoryImpl implements SpittleRepository {
-
     @Override
     public List<Spittle> findSpittles(long max, int count) {
         List<Spittle> spittles = new ArrayList<Spittle>();

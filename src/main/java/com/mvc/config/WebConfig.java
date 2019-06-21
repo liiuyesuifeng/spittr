@@ -14,6 +14,7 @@ import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 import org.springframework.web.servlet.view.ContentNegotiatingViewResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.thymeleaf.TemplateEngine;
@@ -24,13 +25,15 @@ import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ITemplateResolver;
 import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
+import javax.annotation.Resource;
 import javax.sql.DataSource;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.mvc.*")//配置扫描包
+@ComponentScan("com.*")//配置扫描包
 public class WebConfig extends WebMvcConfigurerAdapter{
 //    @Bean
 //    public ContentNegotiatingViewResolver contentNegotiatingViewResolver(SpringTemplateEngine springTemplateEngine){
@@ -125,6 +128,15 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     public MultipartResolver multipartResolver(){
         return new StandardServletMultipartResolver();
     }
+    @Bean
+    public SimpleMappingExceptionResolver exceptionResolver() {
+        SimpleMappingExceptionResolver resolver = new SimpleMappingExceptionResolver();
+        Properties mappings = new Properties();
+        mappings.setProperty("org.apache.shiro.authz.UnauthorizedException", "/unauthorized");
+        mappings.setProperty("org.apache.shiro.authz.UnauthenticatedException", "/unauthenticated");
+        resolver.setExceptionMappings(mappings);
+        return resolver;
+    }
 //    
 //    /**
 //     * 获取Jndi配置
@@ -138,23 +150,5 @@ public class WebConfig extends WebMvcConfigurerAdapter{
 //        data.setProxyInterface(javax.sql.DataSource.class);
 //        return data;
 //    }
-    @Bean
-    public DataSource dataSource(){
-        BasicDataSource dataSource = new BasicDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/userwork?useUnicode=true&characterEncoding=utf8");
-        dataSource.setUsername("root");
-        dataSource.setPassword("sa123456");
-        dataSource.setMaxActive(30);
-        dataSource.setMinIdle(5);
-        dataSource.setInitialSize(5);
-        dataSource.setDefaultAutoCommit(false);
-        return dataSource;
-    }
-    @Bean
-    public JdbcTemplate jdbcTemplate(DataSource source){
-        JdbcTemplate jdbcTemplate = new JdbcTemplate();
-        jdbcTemplate.setDataSource(source);
-        return  jdbcTemplate;
-    }
+
 }
