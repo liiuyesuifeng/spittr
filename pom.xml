@@ -24,6 +24,7 @@
     <hibernate.validator.version>5.1.2.Final</hibernate.validator.version>
     <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
     <version.shiro>1.3.2</version.shiro>
+    <version.RabbitMQ>3.6.6</version.RabbitMQ>
   </properties>
 
   <dependencies>
@@ -250,6 +251,18 @@
       <artifactId>slf4j-log4j12</artifactId>
       <version>1.7.25</version>
     </dependency>
+    <!-- rabbitMQ -->
+    <dependency>
+      <groupId>com.rabbitmq</groupId>
+      <artifactId>amqp-client</artifactId>
+      <version>${version.RabbitMQ}</version>
+    </dependency>
+
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>1.7.7</version>
+      </dependency>
   </dependencies>
 
   <build>

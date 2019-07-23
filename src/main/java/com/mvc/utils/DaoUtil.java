@@ -128,10 +128,10 @@ public class DaoUtil {
     }
     @Test
     public void junitOne() throws IllegalAccessException {
-        convertEntityForSQL(new User(2,"2","3","4"));
+
     }
     @Test
-    public void daoTest() throws IllegalAccessException {
+    public void daoTest()  throws IllegalAccessException {
         String s = convertEntityForSQL(new User(0, "a", "a", "b"));
         System.out.println(s);
     }
